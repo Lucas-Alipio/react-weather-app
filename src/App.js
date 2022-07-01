@@ -1,5 +1,6 @@
 import UilReact from "@iconscout/react-unicons/icons/uil-react";
 import Inputs from "./components/Inputs";
+import TimeAndLocation from "./components/TimeAndLocation";
 import TopButtons from "./components/TopButtons";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     shadow-xl shadow-gray-400">
       <TopButtons />
       <Inputs />
+      <TimeAndLocation />
     </div>
   );
 }
